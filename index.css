@@ -79,8 +79,9 @@ ul li i:hover {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-right: 100px;
-    height: 50vh;
+    /* margin-right: 100px; */
+    height: 100vh;
+    width:100%;
 }
 .mainPage .hero img{
     height: 100vh;
@@ -425,6 +426,9 @@ ul li i:hover {
     .container {
         width: 100%;
     }
+    .mainText{
+        padding-bottom: 20rem;
+    }
 }
 
 @media(max-width:1000px) {
@@ -455,6 +459,11 @@ ul li i:hover {
         flex-direction:column;
         background-color: #eeee;
         gap: 20px;
+    }
+    .head h1{
+        font-size: 2rem;
+        margin-top: 0px;
+        padding-top: 10px;
     }
     .head h1{
         font-size: 2rem;
@@ -492,6 +501,9 @@ ul li i:hover {
         outline: none;
         font-size: 18px;
         border: none;
+    }
+    .mainText{
+        padding-bottom: 20rem;
     }
     .inp button {
         width: 5rem;
@@ -537,7 +549,7 @@ ul li i:hover {
         margin: 3rem 0;
     }
 }
-@media(max-width:435px) {
+@media(max-width:635px) {
     nav {
         padding: 0rem 1%;
     }
@@ -569,7 +581,9 @@ ul li i:hover {
         margin-top: -50rem;
         margin-left: 11rem;
         font-size: 10px;
+        margin-right: 100px;
         width: 100%;
+        padding-bottom: 0;
         position: absolute;
         color: #eeee;
         z-index:9;
@@ -594,5 +608,23 @@ ul li i:hover {
     
     .aboutus img{
         width: 18rem;
+    }
+    .fullPage{
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        flex-direction: column;
+    }
+    .fullPage img{
+       height: 40vh;
+        width: 25rem;
+        border: 3px solid;
+    }
+    .fullPage{
+    
+        display: flex;
+        justify-content: center;
+        display: none;
+        margin-top: 22px;
     }
 }
