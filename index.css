@@ -3,8 +3,9 @@
     padding: 0%;
     font-family: 'Roboto', sans-serif;
 }
-body{
-    background-color:#eeee;
+
+body {
+    background-color: #eeee;
 }
 
 .logo img {
@@ -15,6 +16,7 @@ body{
     margin-left: 40px;
     margin-top: 0px;
 }
+
 nav {
     top: 0;
     left: 0;
@@ -69,29 +71,35 @@ ul li i:hover {
 }
 
 .hero1 img {
-     display: none;
+    display: none;
 }
-.container{
+
+.container {
     margin-top: 14vh;
 }
-.mainText{
+
+.mainText {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     /* margin-right: 100px; */
     height: 100vh;
-    width:100%;
+    width: 100%;
 }
-.mainPage .hero img{
+
+.mainPage .hero img {
     height: 100vh;
     width: 100%;
-    /* border: 3px solid red; */
+    margin-left: -10rem;
+    /* border-radius: 50%;
+    border: 3px solid red; */
 }
-.mainPage{
+
+.mainPage {
     display: flex;
     justify-content: center;
-    align-items:center;
+    align-items: center;
     height: 100vh;
     width: 100%;
     /* background-color: #dc0a0a; */
@@ -126,10 +134,12 @@ ul li i:hover {
     background-color: transparent;
     color: #027979;
 }
-.social-icon  a{
+
+.social-icon a {
     display: inline-flex;
     justify-content: center;
     width: 4rem;
+    text-decoration: none;
     align-items: center;
     height: 4rem;
     background: transparent;
@@ -140,48 +150,56 @@ ul li i:hover {
     margin: 3rem 1.5rem 3rem 0;
     transition: 0.3s ease-in-out;
 }
-.social-icon a:hover{
+
+.social-icon a:hover {
     color: white;
     transform: scale(1.3)translate(-5px);
     background-color: rgb(3, 128, 128);
     box-shadow: 0 0 25px rgb(3, 128, 128);
 }
 
-.head{
+.head {
     text-align: center;
     padding: 44px;
     margin-top: 11px;
 }
-.head span{
+
+.head span {
     color: rgb(4, 155, 155);
 }
-.card{
+
+.card {
     display: flex;
     justify-content: center;
     padding: 22px;
 }
+
 .card .crd {
     width: 300px;
     height: 500px;
     background-color: #fff;
     margin-inline: 22px;
-    
+
 }
-.card .crd:hover{
+
+.card .crd:hover {
     width: 320px;
     height: 520px;
     transition: 0.6s ease;
 }
+
 .crd .txt {
     margin-left: 28px;
- 
+
 }
-.txt i{
+
+.txt i {
     color: rgb(255, 196, 0);
     margin-top: 4px;
-    font-size:19px;
+    font-size: 19px;
 }
-.txt button{
+
+.txt button {
     width: 110px;
     height: 33px;
     border: none;
@@ -190,55 +208,68 @@ ul li i:hover {
     font-size: 16px;
     margin-top: 8px;
 }
- 
-.crd img{
+
+.crd img {
     width: 85%;
     padding: 22px;
     border-radius: 30px;
 }
-  
-.trd{
+
+.fullPage img {
+    height: 60vh;
+    width: 30rem;
+    /*border: 3px solid;*/
+}
+
+.trd {
     display: flex;
     justify-content: center;
-    
-     
+
+
 }
-.trending{
+
+.trending {
     display: flex;
     width: 100%;
-    height: 30vh;
+    height: 60vh;
     background-color: #fff;
     margin-inline: 22px;
     border-radius: 22px;
 
 }
-.trending .txt{
+
+.trending .txt {
     padding: 2rem;
-    margin-top: 13%;
+    margin-top: 5%;
+    font-size: 1rem;
 }
-.txt a{
+
+.txt a {
     width: 100rem;
     height: 36px;
     background-color: rgb(3, 94, 94);
     color: white;
-    font-size: 18px;
+    font-size: 2rem;
     border: none;
     padding: 7px;
 }
-.txt a:hover{
+
+.txt a:hover {
     background-color: rgb(2, 146, 146);
     cursor: pointer;
     border-radius: 22px;
     transition: 0.9 ease;
 }
-.trending img{
+
+.trending img {
     width: 55%;
     border-radius: 22px;
     padding: 12px;
 }
-.trending:hover{
+
+.trending:hover {
     width: 100%;
-    height: 31rem;
+    height: 62vh;
     transition: 0.7s ease;
     cursor: pointer;
 }
@@ -271,33 +302,35 @@ ul li i:hover {
     border: none;
 }
 
-.footer {
+.footer{
     display: flex;
     justify-content: center;
-    padding: 53px;
+    background-color: rgb(219, 218, 218);
+    padding: 42px;
+   
 }
-
-.footer .footerText {
-    margin-inline: 85px;
+.footer .Ftext{
+    margin-inline: 72px;
 }
-
-.footerText p {
-    margin-top: 11px;
+.Ftext p{
+    margin-top: 22px;
 }
 
 /* about */
 
-.about{
+.about {
     display: none;
 }
-.aboutText{
+
+.aboutText {
     background-color: rgb(1, 1, 43);
     color: white;
     padding: 54px;
     font-size: 18px;
 
 }
-.aboutus{
+
+.aboutus {
     display: flex;
     justify-content: center;
     width: 60rem;
@@ -307,55 +340,65 @@ ul li i:hover {
     margin-top: 8%;
     border-radius: 6px;
 }
-.dumiText{
+
+.dumiText {
     margin-top: 6rem;
 }
-.dumiText p{
+
+.dumiText p {
     margin-top: 2rem;
 }
 
-.aboutus img{
+.aboutus img {
     width: 20rem;
 }
 
 /* contact */
 
-.contact{
+.contact {
     display: none;
 }
-.contactBanner{
+
+.contactBanner {
     background-color: rgb(4, 4, 44);
     color: white;
     padding: 55px;
 }
-.connect{
+
+.connect {
     display: flex;
     justify-content: center;
     margin-top: 33px;
-    
-    
+
+
 }
-.connectText{
+
+.connectText {
     background-color: #fff;
     padding: 53px;
 }
-.connectText p{
+
+.connectText p {
     margin-top: 21px;
 }
-.contact img{
+
+.contact img {
     width: 50%;
 }
-.contact img:hover{
+
+.contact img:hover {
     width: 52%;
     transition: 0.8s ease;
     cursor: pointer;
 
 }
-.form{
+
+.form {
     text-align: center;
     margin-top: 73px;
 }
-.form button{
+
+.form button {
     width: 340px;
     height: 40px;
     border: none;
@@ -364,7 +407,8 @@ ul li i:hover {
     font-size: 22px;
     margin-top: 22px;
 }
-.form input{
+
+.form input {
     width: 320px;
     padding: 8px;
     outline: none;
@@ -374,21 +418,24 @@ ul li i:hover {
 
 /* FullPage */
 
-.fullPage{
-    
+.fullPage {
+
     display: flex;
     justify-content: center;
     display: none;
     margin-top: 22px;
 }
-.fullPage .cartText{
+
+.fullPage .cartText {
     padding: 22px;
     margin-top: 33px;
 }
-.cartText p{
+
+.cartText p {
     margin-top: 11px;
 }
-.cartText .btn button{
+
+.cartText .btn button {
     width: 140px;
     height: 40px;
     background: rgb(247, 133, 2);
@@ -397,14 +444,17 @@ ul li i:hover {
     font-size: 22px;
     margin-top: 22px;
 }
-.btn button:hover{
+
+.btn button:hover {
     background-color: rgb(253, 173, 25);
     cursor: pointer;
 }
-.cartText h2{
+
+.cartText h2 {
     margin-top: 11px;
 }
-.relode{
+
+.relode {
     background-color: rgb(3, 75, 75);
     color: white;
     width: 140px;
@@ -413,11 +463,13 @@ ul li i:hover {
     font-size: 22px;
     margin-top: 22px;
 }
-.relode:hover{
+
+.relode:hover {
     background-color: rgb(4, 141, 141);
     cursor: pointer;
 
 }
+
 @media(max-width:1200px) {
     html {
         font-size: 55%;
@@ -426,97 +478,104 @@ ul li i:hover {
     .container {
         width: 100%;
     }
-    .mainText{
+
+    .mainText {
         padding-bottom: 20rem;
     }
+    .trending .txt {
+    padding: 2rem;
+    margin-top: 5%;
+    font-size: 1.5rem;
+}
 }
 
 @media(max-width:1000px) {
     nav {
         padding: 1.5rem 1%;
     }
-    .logo img{
+
+    .logo img {
         width: 10vh;
         height: 10vh;
-        /* margin: 0px 0px 0px 0px;
-        padding: 0px 0px 0px 0px; */
         border-radius: 50%;
         border: 1px solid #000;
         margin-left: 40px;
         margin-top: 0px;
     }
-    .hero img{
+
+    .hero img {
         height: 100vh;
         width: 100%;
     }
-    section {
-        padding: 10rem 3% 2rem;
-    }
-    .card {
-        display: flex;
-        justify-content:center;
-        align-items:center;
-        flex-direction:column;
-        background-color: #eeee;
-        gap: 20px;
-    }
-    .head h1{
+    .head h1 {
         font-size: 2rem;
         margin-top: 0px;
         padding-top: 10px;
-    }
-    .head h1{
-        font-size: 2rem;
-        margin-top: 0px;
-        padding-top: 10px;
-    }
-    .blog {
-        width: 20;
-    }
-    .trd{
-        display: flex;
-        justify-content:center;
-        align-items:center;
-        flex-direction:column;
-        background-color: #eeee;
-        gap: 20px;
-    }
-    .aboutus{
-        width: 60rem;
-        height:40vh;
-        padding: 1rem;
-        margin-left: 15rem;
-    margin-top: 4rem;
     }
 
-    .letter{
+    .head h1 {
+        font-size: 2rem;
+        margin-top: 0px;
+        padding-top: 10px;
+    }
+
+
+    .trd {
         display: flex;
-        align-items:center;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: #eeee;
+        gap: 20px;
+    }
+
+    .aboutus {
+        width: 60rem;
+        height: 40vh;
+        padding: 1rem;
+        margin-left: 15rem;
+        margin-top: 4rem;
+    }
+
+    .fullPage img {
+        height: 60vh;
+        width: 30rem;
+        /*border: 3px solid;*/
+    }
+
+    .letter {
+        display: flex;
+        align-items: center;
         width: 100%;
         padding: 27px 0px 27px 0px;
     }
-    .inp input {
+
+    /* .inp input {
         width: 10rem;
         height: 33px;
         outline: none;
         font-size: 18px;
         border: none;
-    }
-    .mainText{
+    }*/
+
+    .mainText {
         padding-bottom: 20rem;
     }
-    .inp button {
+
+    /*.inp button {
         width: 5rem;
         height: 33px;
         background-color: rgb(2, 173, 173);
         color: white;
         border: none;
-    }
-    .cart img{
+    } */
+
+    .cart img {
         width: 20vh;
     }
-    .footer .footerText {
-        margin-inline: 3rem;
+
+    .footer .Text {
+        margin-inline: 10rem;
     }
 }
 
@@ -525,7 +584,7 @@ ul li i:hover {
         display: block;
     }
 
-    .navbar{
+    .navbar {
         position: absolute;
         top: 5.5rem;
         right: -38px;
@@ -536,48 +595,54 @@ ul li i:hover {
         padding: 4rem 4%;
         background: #eeee;
         display: none;
-        
+
     }
 
     .navbar.active {
         display: block;
     }
 
-    .navbar a{
+    .navbar a {
         display: block;
         font-size: 2rem;
         margin: 3rem 0;
     }
 }
+
 @media(max-width:635px) {
     nav {
         padding: 0rem 1%;
     }
-    .hero1 img.active{
+
+    .hero1 img.active {
         display: block;
-        
-        
+
+
     }
-    .hero img{
+
+    .hero img {
         height: 100vh;
         width: 100%;
-        display:none;
+        display: none;
     }
-    .mainPage{
+
+    .mainPage {
         display: flex;
         justify-content: center;
-        align-items:center;
+        align-items: center;
         height: 100vh;
         width: 100%;
         margin-top: -25px;
     }
-    .mainPage .hero1 img{
+
+    .mainPage .hero1 img {
         display: block;
         height: 100vh;
         width: 100%;
-        left:0;
+        left: 0;
     }
-    .mainText{
+
+    .mainText {
         margin-top: -50rem;
         margin-left: 11rem;
         font-size: 10px;
@@ -586,10 +651,20 @@ ul li i:hover {
         padding-bottom: 0;
         position: absolute;
         color: #eeee;
-        z-index:9;
+        z-index: 9;
 
-    } 
-    .aboutus{
+    }
+
+    .card {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: #eeee;
+        gap: 20px;
+    }
+
+    .aboutus {
         display: flex;
         justify-content: center;
         width: 30rem;
@@ -599,32 +674,69 @@ ul li i:hover {
         margin-top: 8%;
         border-radius: 6px;
     }
-    .dumiText{
+
+    .dumiText {
         margin-top: 6rem;
     }
-    .dumiText p{
+
+    .dumiText p {
         margin-top: 2rem;
     }
-    
-    .aboutus img{
+
+    .aboutus img {
         width: 18rem;
     }
-    .fullPage{
+
+    .fullPage {
         display: flex;
         justify-content: center;
-        align-items:center;
+        align-items: center;
         flex-direction: column;
     }
-    .fullPage img{
-       height: 40vh;
+
+    .fullPage img {
+        height: 40vh;
         width: 25rem;
-        border: 3px solid;
+        /*border: 3px solid;*/
     }
-    .fullPage{
-    
+
+    .fullPage {
+
         display: flex;
         justify-content: center;
         display: none;
+        margin-top: 22px;
+    }
+    .inp input {
+        width: 10rem;
+        height: 33px;
+        outline: none;
+        font-size: 18px;
+        border: none;
+    }
+
+    .mainText {
+        padding-bottom: 20rem;
+    }
+
+    .inp button {
+        width: 5rem;
+        height: 33px;
+        background-color: rgb(2, 173, 173);
+        color: white;
+        border: none;
+    }
+    .footer{
+        display: flex;
+        justify-content: center;
+        background-color: rgb(219, 218, 218);
+        padding: 12px;
+       
+    }
+    .footer .Ftext{
+        margin-inline: 26px;
+    }
+    .Ftext p{
         margin-top: 22px;
     }
 }
