@@ -486,14 +486,14 @@ ul li i:hover {
 
     ul {
         margin-right: 45px;
-        margin-top: 25px;
+        margin-top: 50px;
     }
 
-    /* #menu-icon {
+    #menu-icon {
         font-size: 3rem;
         margin-right: 3rem;
-        margin-top: px;
-    } */
+        margin-top: 50px;
+    }
 
     .trending .txt {
         padding: 2rem;
@@ -515,15 +515,29 @@ ul li i:hover {
         margin-left: 40px;
         margin-top: 0px;
     }
-
+    /* #menu-icon {
+        font-size: 3rem;
+        margin-right: 3rem;
+        margin-top: 50px;
+    } */
+    .mainPage{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
     .mainPage .hero img {
-        height: 80vh;
-        width: 80%;
-        margin-left: 5rem;
+        height: 50vh;
+        width: 50vh;
+        /* margin-left: 5rem; */
+    }
+    .mainPage .mainText {
+        padding-bottom: 10rem;
+        font-size: 2rem;
     }
 
     .head h1 {
-        font-size: 2rem;
+        font-size: rem;
         margin-top: 0px;
         padding-top: 10px;
     }
@@ -564,26 +578,6 @@ ul li i:hover {
         width: 100%;
         padding: 27px 0px 27px 0px;
     }
-
-    /* .inp input {
-        width: 10rem;
-        height: 33px;
-        outline: none;
-        font-size: 18px;
-        border: none;
-    }*/
-
-    .mainText {
-        padding-bottom: 20rem;
-    }
-
-    /*.inp button {
-        width: 5rem;
-        height: 33px;
-        background-color: rgb(2, 173, 173);
-        color: white;
-        border: none;
-    } */
 
     .cart img {
         width: 20vh;
@@ -668,13 +662,13 @@ ul li i:hover {
         left: 0;
     }
 
-    .mainText {
-        margin-top: -25rem;
+    .mainPage .mainText {
+        margin-top: 5rem;
         margin-left: 11rem;
         font-size: 10px;
         margin-right: 100px;
         width: 100%;
-        padding-bottom: 0;
+        padding-bottom: 20rem;
         position: absolute;
         color: #eeee;
         z-index: 9;
@@ -742,8 +736,8 @@ ul li i:hover {
         border: none;
     }
 
-    .mainText {
-        padding-bottom: 20rem;
+    .mainPage .mainText {
+        padding-bottom: 50rem;
     }
 
     .inp button {
