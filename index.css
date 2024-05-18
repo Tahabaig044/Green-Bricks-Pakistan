@@ -486,14 +486,14 @@ ul li i:hover {
 
     ul {
         margin-right: 45px;
-        margin-top: 45px;
+        margin-top: 25px;
     }
 
-    #menu-icon {
+    /* #menu-icon {
         font-size: 3rem;
         margin-right: 3rem;
-        margin-top: 50px;
-    }
+        margin-top: px;
+    } */
 
     .trending .txt {
         padding: 2rem;
