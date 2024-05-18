@@ -92,8 +92,7 @@ ul li i:hover {
     height: 100vh;
     width: 100%;
     margin-left: -10rem;
-    /* border-radius: 50%;
-    border: 3px solid red; */
+    /* border: 3px solid red; */
 }
 
 .mainPage {
@@ -302,17 +301,19 @@ ul li i:hover {
     border: none;
 }
 
-.footer{
+.footer {
     display: flex;
     justify-content: center;
     background-color: rgb(219, 218, 218);
     padding: 42px;
-   
+
 }
-.footer .Ftext{
+
+.footer .Ftext {
     margin-inline: 72px;
 }
-.Ftext p{
+
+.Ftext p {
     margin-top: 22px;
 }
 
@@ -472,7 +473,7 @@ ul li i:hover {
 
 @media(max-width:1200px) {
     html {
-        font-size: 55%;
+        font-size: 50%;
     }
 
     .container {
@@ -482,11 +483,23 @@ ul li i:hover {
     .mainText {
         padding-bottom: 20rem;
     }
+
+    ul {
+        margin-right: 45px;
+        margin-top: 45px;
+    }
+
+    #menu-icon {
+        font-size: 3rem;
+        margin-right: 3rem;
+        margin-top: 50px;
+    }
+
     .trending .txt {
-    padding: 2rem;
-    margin-top: 5%;
-    font-size: 1.5rem;
-}
+        padding: 2rem;
+        margin-top: 5%;
+        font-size: 1.5rem;
+    }
 }
 
 @media(max-width:1000px) {
@@ -503,10 +516,12 @@ ul li i:hover {
         margin-top: 0px;
     }
 
-    .hero img {
-        height: 100vh;
-        width: 100%;
+    .mainPage .hero img {
+        height: 80vh;
+        width: 80%;
+        margin-left: 5rem;
     }
+
     .head h1 {
         font-size: 2rem;
         margin-top: 0px;
@@ -609,9 +624,20 @@ ul li i:hover {
     }
 }
 
-@media(max-width:635px) {
+@media(max-width:650px) {
     nav {
         padding: 0rem 1%;
+    }
+
+    ul {
+        margin-right: 45px;
+        margin-top: 45px;
+    }
+
+    #menu-icon {
+        font-size: 3rem;
+        margin-right: 3rem;
+        margin-top: 50px;
     }
 
     .hero1 img.active {
@@ -643,7 +669,7 @@ ul li i:hover {
     }
 
     .mainText {
-        margin-top: -50rem;
+        margin-top: -25rem;
         margin-left: 11rem;
         font-size: 10px;
         margin-right: 100px;
@@ -707,6 +733,7 @@ ul li i:hover {
         display: none;
         margin-top: 22px;
     }
+
     .inp input {
         width: 10rem;
         height: 33px;
@@ -726,17 +753,20 @@ ul li i:hover {
         color: white;
         border: none;
     }
-    .footer{
+
+    .footer {
         display: flex;
         justify-content: center;
         background-color: rgb(219, 218, 218);
         padding: 12px;
-       
+
     }
-    .footer .Ftext{
+
+    .footer .Ftext {
         margin-inline: 26px;
     }
-    .Ftext p{
+
+    .Ftext p {
         margin-top: 22px;
     }
 }
